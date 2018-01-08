@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Drumk Kit</title>
+        <link rel="stylesheet" href="css/drum-kit.css">
+    </head>
+    <body>       
+        <div class="container">
+            <div data-key="65" class="key"><kbd>a</kbd><span>BELL</span></div>
+            <div data-key="83" class="key"><kbd>s</kbd><span>CLAVE</span></div>
+            <div data-key="68" class="key"><kbd>d</kbd><span>CLAP</span></div>
+            <div data-key="70" class="key"><kbd>f</kbd><span>CRASH</span></div>
+            <div data-key="74" class="key"><kbd>j</kbd><span>HAT</span></div>
+            <div data-key="75" class="key"><kbd>k</kbd><span>KICK</span></div>
+            <div data-key="76" class="key"><kbd>l</kbd><span>DRUM</span></div>
+            <div data-key="186" class="key"><kbd>;</kbd><span>HI HAT</span></div>
+        </div>
+
+        <audio data-key="65" src="audio/cb.mp3" id="music"></audio>
+        <audio data-key="83" src="audio/clave.mp3"></audio>
+        <audio data-key="68" src="audio/cp.mp3"></audio>
+        <audio data-key="70" src="audio/crash.mp3"></audio>
+        <audio data-key="74" src="audio/hh.mp3"></audio>
+        <audio data-key="75" src="audio/kd1.mp3"></audio>
+        <audio data-key="76" src="audio/kd2.mp3"></audio>
+        <audio data-key="186" src="audio/mrcs.mp3"></audio>
+        
+        <!-- JS file -->
+        <script src="drum-kit.js"></script>
+    </body>
+</html>
