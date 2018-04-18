@@ -1,4 +1,4 @@
-// JS Drum Kit
+// JS Drum Kit App
 // Project 1 of 30
 
 window.onload = function() {
