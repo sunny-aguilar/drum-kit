@@ -27,5 +27,5 @@ window.onload = function() {
     }
 
     const keys = document.querySelectorAll('.key');
-    keys.forEach(key => key.addEventListener('transitionend', removeTransition))
+    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 };
